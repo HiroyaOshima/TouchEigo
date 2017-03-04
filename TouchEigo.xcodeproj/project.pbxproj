@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA65A53A1E6A910F00F7A898 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65A5391E6A910F00F7A898 /* AppDelegate.swift */; };
+		BA65A53C1E6A910F00F7A898 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65A53B1E6A910F00F7A898 /* ViewController.swift */; };
+		BA65A53F1E6A910F00F7A898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA65A53D1E6A910F00F7A898 /* Main.storyboard */; };
+		BA65A5411E6A910F00F7A898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA65A5401E6A910F00F7A898 /* Assets.xcassets */; };
+		BA65A5441E6A910F00F7A898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA65A5421E6A910F00F7A898 /* LaunchScreen.storyboard */; };
+		BA65A54F1E6A911000F7A898 /* TouchEigoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65A54E1E6A911000F7A898 /* TouchEigoTests.swift */; };
+		BA65A55A1E6A911000F7A898 /* TouchEigoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65A5591E6A911000F7A898 /* TouchEigoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA65A54B1E6A911000F7A898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA65A52E1E6A910F00F7A898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA65A5351E6A910F00F7A898;
+			remoteInfo = TouchEigo;
+		};
+		BA65A5561E6A911000F7A898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA65A52E1E6A910F00F7A898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA65A5351E6A910F00F7A898;
+			remoteInfo = TouchEigo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA65A5361E6A910F00F7A898 /* TouchEigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchEigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA65A5391E6A910F00F7A898 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA65A53B1E6A910F00F7A898 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA65A53E1E6A910F00F7A898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA65A5401E6A910F00F7A898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA65A5431E6A910F00F7A898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA65A5451E6A910F00F7A898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA65A54A1E6A911000F7A898 /* TouchEigoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchEigoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA65A54E1E6A911000F7A898 /* TouchEigoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchEigoTests.swift; sourceTree = "<group>"; };
+		BA65A5501E6A911000F7A898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA65A5551E6A911000F7A898 /* TouchEigoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchEigoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA65A5591E6A911000F7A898 /* TouchEigoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchEigoUITests.swift; sourceTree = "<group>"; };
+		BA65A55B1E6A911000F7A898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA65A5331E6A910F00F7A898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA65A5471E6A911000F7A898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA65A5521E6A911000F7A898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA65A52D1E6A910F00F7A898 = {
+			isa = PBXGroup;
+			children = (
+				BA65A5381E6A910F00F7A898 /* TouchEigo */,
+				BA65A54D1E6A911000F7A898 /* TouchEigoTests */,
+				BA65A5581E6A911000F7A898 /* TouchEigoUITests */,
+				BA65A5371E6A910F00F7A898 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA65A5371E6A910F00F7A898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA65A5361E6A910F00F7A898 /* TouchEigo.app */,
+				BA65A54A1E6A911000F7A898 /* TouchEigoTests.xctest */,
+				BA65A5551E6A911000F7A898 /* TouchEigoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA65A5381E6A910F00F7A898 /* TouchEigo */ = {
+			isa = PBXGroup;
+			children = (
+				BA65A5391E6A910F00F7A898 /* AppDelegate.swift */,
+				BA65A53B1E6A910F00F7A898 /* ViewController.swift */,
+				BA65A53D1E6A910F00F7A898 /* Main.storyboard */,
+				BA65A5401E6A910F00F7A898 /* Assets.xcassets */,
+				BA65A5421E6A910F00F7A898 /* LaunchScreen.storyboard */,
+				BA65A5451E6A910F00F7A898 /* Info.plist */,
+			);
+			path = TouchEigo;
+			sourceTree = "<group>";
+		};
+		BA65A54D1E6A911000F7A898 /* TouchEigoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA65A54E1E6A911000F7A898 /* TouchEigoTests.swift */,
+				BA65A5501E6A911000F7A898 /* Info.plist */,
+			);
+			path = TouchEigoTests;
+			sourceTree = "<group>";
+		};
+		BA65A5581E6A911000F7A898 /* TouchEigoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA65A5591E6A911000F7A898 /* TouchEigoUITests.swift */,
+				BA65A55B1E6A911000F7A898 /* Info.plist */,
+			);
+			path = TouchEigoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA65A5351E6A910F00F7A898 /* TouchEigo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA65A55E1E6A911000F7A898 /* Build configuration list for PBXNativeTarget "TouchEigo" */;
+			buildPhases = (
+				BA65A5321E6A910F00F7A898 /* Sources */,
+				BA65A5331E6A910F00F7A898 /* Frameworks */,
+				BA65A5341E6A910F00F7A898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchEigo;
+			productName = TouchEigo;
+			productReference = BA65A5361E6A910F00F7A898 /* TouchEigo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA65A5491E6A911000F7A898 /* TouchEigoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA65A5611E6A911000F7A898 /* Build configuration list for PBXNativeTarget "TouchEigoTests" */;
+			buildPhases = (
+				BA65A5461E6A911000F7A898 /* Sources */,
+				BA65A5471E6A911000F7A898 /* Frameworks */,
+				BA65A5481E6A911000F7A898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA65A54C1E6A911000F7A898 /* PBXTargetDependency */,
+			);
+			name = TouchEigoTests;
+			productName = TouchEigoTests;
+			productReference = BA65A54A1E6A911000F7A898 /* TouchEigoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA65A5541E6A911000F7A898 /* TouchEigoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA65A5641E6A911000F7A898 /* Build configuration list for PBXNativeTarget "TouchEigoUITests" */;
+			buildPhases = (
+				BA65A5511E6A911000F7A898 /* Sources */,
+				BA65A5521E6A911000F7A898 /* Frameworks */,
+				BA65A5531E6A911000F7A898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA65A5571E6A911000F7A898 /* PBXTargetDependency */,
+			);
+			name = TouchEigoUITests;
+			productName = TouchEigoUITests;
+			productReference = BA65A5551E6A911000F7A898 /* TouchEigoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA65A52E1E6A910F00F7A898 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "大嶋 広也";
+				TargetAttributes = {
+					BA65A5351E6A910F00F7A898 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZC9946ZJCS;
+						ProvisioningStyle = Automatic;
+					};
+					BA65A5491E6A911000F7A898 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZC9946ZJCS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA65A5351E6A910F00F7A898;
+					};
+					BA65A5541E6A911000F7A898 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZC9946ZJCS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA65A5351E6A910F00F7A898;
+					};
+				};
+			};
+			buildConfigurationList = BA65A5311E6A910F00F7A898 /* Build configuration list for PBXProject "TouchEigo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA65A52D1E6A910F00F7A898;
+			productRefGroup = BA65A5371E6A910F00F7A898 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA65A5351E6A910F00F7A898 /* TouchEigo */,
+				BA65A5491E6A911000F7A898 /* TouchEigoTests */,
+				BA65A5541E6A911000F7A898 /* TouchEigoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA65A5341E6A910F00F7A898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA65A5441E6A910F00F7A898 /* LaunchScreen.storyboard in Resources */,
+				BA65A5411E6A910F00F7A898 /* Assets.xcassets in Resources */,
+				BA65A53F1E6A910F00F7A898 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA65A5481E6A911000F7A898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA65A5531E6A911000F7A898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA65A5321E6A910F00F7A898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA65A53C1E6A910F00F7A898 /* ViewController.swift in Sources */,
+				BA65A53A1E6A910F00F7A898 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA65A5461E6A911000F7A898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA65A54F1E6A911000F7A898 /* TouchEigoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA65A5511E6A911000F7A898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA65A55A1E6A911000F7A898 /* TouchEigoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA65A54C1E6A911000F7A898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA65A5351E6A910F00F7A898 /* TouchEigo */;
+			targetProxy = BA65A54B1E6A911000F7A898 /* PBXContainerItemProxy */;
+		};
+		BA65A5571E6A911000F7A898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA65A5351E6A910F00F7A898 /* TouchEigo */;
+			targetProxy = BA65A5561E6A911000F7A898 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA65A53D1E6A910F00F7A898 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA65A53E1E6A910F00F7A898 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA65A5421E6A910F00F7A898 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA65A5431E6A910F00F7A898 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA65A55C1E6A911000F7A898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA65A55D1E6A911000F7A898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA65A55F1E6A911000F7A898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZC9946ZJCS;
+				INFOPLIST_FILE = TouchEigo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eava.com.TouchEigo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA65A5601E6A911000F7A898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZC9946ZJCS;
+				INFOPLIST_FILE = TouchEigo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eava.com.TouchEigo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BA65A5621E6A911000F7A898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZC9946ZJCS;
+				INFOPLIST_FILE = TouchEigoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eava.com.TouchEigoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchEigo.app/TouchEigo";
+			};
+			name = Debug;
+		};
+		BA65A5631E6A911000F7A898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZC9946ZJCS;
+				INFOPLIST_FILE = TouchEigoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eava.com.TouchEigoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchEigo.app/TouchEigo";
+			};
+			name = Release;
+		};
+		BA65A5651E6A911000F7A898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZC9946ZJCS;
+				INFOPLIST_FILE = TouchEigoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eava.com.TouchEigoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TouchEigo;
+			};
+			name = Debug;
+		};
+		BA65A5661E6A911000F7A898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZC9946ZJCS;
+				INFOPLIST_FILE = TouchEigoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eava.com.TouchEigoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TouchEigo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA65A5311E6A910F00F7A898 /* Build configuration list for PBXProject "TouchEigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA65A55C1E6A911000F7A898 /* Debug */,
+				BA65A55D1E6A911000F7A898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA65A55E1E6A911000F7A898 /* Build configuration list for PBXNativeTarget "TouchEigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA65A55F1E6A911000F7A898 /* Debug */,
+				BA65A5601E6A911000F7A898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA65A5611E6A911000F7A898 /* Build configuration list for PBXNativeTarget "TouchEigoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA65A5621E6A911000F7A898 /* Debug */,
+				BA65A5631E6A911000F7A898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA65A5641E6A911000F7A898 /* Build configuration list for PBXNativeTarget "TouchEigoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA65A5651E6A911000F7A898 /* Debug */,
+				BA65A5661E6A911000F7A898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA65A52E1E6A910F00F7A898 /* Project object */;
+}
