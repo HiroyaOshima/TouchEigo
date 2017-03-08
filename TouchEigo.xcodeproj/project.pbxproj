@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		BA65A53A1E6A910F00F7A898 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65A5391E6A910F00F7A898 /* AppDelegate.swift */; };
-		BA65A53C1E6A910F00F7A898 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65A53B1E6A910F00F7A898 /* ViewController.swift */; };
+		BA65A53C1E6A910F00F7A898 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65A53B1E6A910F00F7A898 /* MainViewController.swift */; };
 		BA65A53F1E6A910F00F7A898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA65A53D1E6A910F00F7A898 /* Main.storyboard */; };
 		BA65A5411E6A910F00F7A898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA65A5401E6A910F00F7A898 /* Assets.xcassets */; };
 		BA65A5441E6A910F00F7A898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA65A5421E6A910F00F7A898 /* LaunchScreen.storyboard */; };
 		BA65A54F1E6A911000F7A898 /* TouchEigoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65A54E1E6A911000F7A898 /* TouchEigoTests.swift */; };
 		BA65A55A1E6A911000F7A898 /* TouchEigoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65A5591E6A911000F7A898 /* TouchEigoUITests.swift */; };
+		BA65A5681E6C1BA300F7A898 /* MainViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65A5671E6C1BA300F7A898 /* MainViewController2.swift */; };
+		BA65A56A1E6C1C0100F7A898 /* VegetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65A5691E6C1C0100F7A898 /* VegetableViewController.swift */; };
+		BA65A56C1E6C1D7700F7A898 /* contedefees_0120.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA65A56B1E6C1D7700F7A898 /* contedefees_0120.mp3 */; };
+		BA65A56E1E6C237F00F7A898 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65A56D1E6C237F00F7A898 /* ViewController.swift */; };
+		BA65A5AD1E6C2DE100F7A898 /* eggplant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA65A5A91E6C2DE100F7A898 /* eggplant.mp3 */; };
+		BA65A5AE1E6C2DE100F7A898 /* carrot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA65A5AA1E6C2DE100F7A898 /* carrot.mp3 */; };
+		BA65A5AF1E6C2DE100F7A898 /* tomato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA65A5AB1E6C2DE100F7A898 /* tomato.mp3 */; };
+		BA65A5B01E6C2DE100F7A898 /* green_pepper.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA65A5AC1E6C2DE100F7A898 /* green_pepper.mp3 */; };
+		BA65A5B21E704D0E00F7A898 /* mom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA65A5B11E704D0E00F7A898 /* mom.mp3 */; };
+		BA65A5B41E704D1400F7A898 /* cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA65A5B31E704D1400F7A898 /* cat.mp3 */; };
+		BA65A5B61E704E1000F7A898 /* SelfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65A5B51E704E1000F7A898 /* SelfViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +47,7 @@
 /* Begin PBXFileReference section */
 		BA65A5361E6A910F00F7A898 /* TouchEigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchEigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA65A5391E6A910F00F7A898 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA65A53B1E6A910F00F7A898 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA65A53B1E6A910F00F7A898 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BA65A53E1E6A910F00F7A898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA65A5401E6A910F00F7A898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA65A5431E6A910F00F7A898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,17 @@
 		BA65A5551E6A911000F7A898 /* TouchEigoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchEigoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA65A5591E6A911000F7A898 /* TouchEigoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchEigoUITests.swift; sourceTree = "<group>"; };
 		BA65A55B1E6A911000F7A898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA65A5671E6C1BA300F7A898 /* MainViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController2.swift; sourceTree = "<group>"; };
+		BA65A5691E6C1C0100F7A898 /* VegetableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VegetableViewController.swift; sourceTree = "<group>"; };
+		BA65A56B1E6C1D7700F7A898 /* contedefees_0120.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = contedefees_0120.mp3; sourceTree = "<group>"; };
+		BA65A56D1E6C237F00F7A898 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA65A5A91E6C2DE100F7A898 /* eggplant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eggplant.mp3; sourceTree = "<group>"; };
+		BA65A5AA1E6C2DE100F7A898 /* carrot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = carrot.mp3; sourceTree = "<group>"; };
+		BA65A5AB1E6C2DE100F7A898 /* tomato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tomato.mp3; sourceTree = "<group>"; };
+		BA65A5AC1E6C2DE100F7A898 /* green_pepper.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = green_pepper.mp3; sourceTree = "<group>"; };
+		BA65A5B11E704D0E00F7A898 /* mom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mom.mp3; sourceTree = "<group>"; };
+		BA65A5B31E704D1400F7A898 /* cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat.mp3; sourceTree = "<group>"; };
+		BA65A5B51E704E1000F7A898 /* SelfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +120,22 @@
 			isa = PBXGroup;
 			children = (
 				BA65A5391E6A910F00F7A898 /* AppDelegate.swift */,
-				BA65A53B1E6A910F00F7A898 /* ViewController.swift */,
+				BA65A53B1E6A910F00F7A898 /* MainViewController.swift */,
 				BA65A53D1E6A910F00F7A898 /* Main.storyboard */,
+				BA65A5B51E704E1000F7A898 /* SelfViewController.swift */,
+				BA65A56D1E6C237F00F7A898 /* ViewController.swift */,
+				BA65A5691E6C1C0100F7A898 /* VegetableViewController.swift */,
+				BA65A5671E6C1BA300F7A898 /* MainViewController2.swift */,
 				BA65A5401E6A910F00F7A898 /* Assets.xcassets */,
 				BA65A5421E6A910F00F7A898 /* LaunchScreen.storyboard */,
 				BA65A5451E6A910F00F7A898 /* Info.plist */,
+				BA65A56B1E6C1D7700F7A898 /* contedefees_0120.mp3 */,
+				BA65A5A91E6C2DE100F7A898 /* eggplant.mp3 */,
+				BA65A5AA1E6C2DE100F7A898 /* carrot.mp3 */,
+				BA65A5AB1E6C2DE100F7A898 /* tomato.mp3 */,
+				BA65A5AC1E6C2DE100F7A898 /* green_pepper.mp3 */,
+				BA65A5B11E704D0E00F7A898 /* mom.mp3 */,
+				BA65A5B31E704D1400F7A898 /* cat.mp3 */,
 			);
 			path = TouchEigo;
 			sourceTree = "<group>";
@@ -236,8 +269,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA65A5441E6A910F00F7A898 /* LaunchScreen.storyboard in Resources */,
+				BA65A56C1E6C1D7700F7A898 /* contedefees_0120.mp3 in Resources */,
+				BA65A5B01E6C2DE100F7A898 /* green_pepper.mp3 in Resources */,
+				BA65A5B21E704D0E00F7A898 /* mom.mp3 in Resources */,
 				BA65A5411E6A910F00F7A898 /* Assets.xcassets in Resources */,
+				BA65A5B41E704D1400F7A898 /* cat.mp3 in Resources */,
+				BA65A5AF1E6C2DE100F7A898 /* tomato.mp3 in Resources */,
+				BA65A5AD1E6C2DE100F7A898 /* eggplant.mp3 in Resources */,
 				BA65A53F1E6A910F00F7A898 /* Main.storyboard in Resources */,
+				BA65A5AE1E6C2DE100F7A898 /* carrot.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +302,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA65A53C1E6A910F00F7A898 /* ViewController.swift in Sources */,
+				BA65A56E1E6C237F00F7A898 /* ViewController.swift in Sources */,
+				BA65A5681E6C1BA300F7A898 /* MainViewController2.swift in Sources */,
+				BA65A53C1E6A910F00F7A898 /* MainViewController.swift in Sources */,
+				BA65A56A1E6C1C0100F7A898 /* VegetableViewController.swift in Sources */,
+				BA65A5B61E704E1000F7A898 /* SelfViewController.swift in Sources */,
 				BA65A53A1E6A910F00F7A898 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +558,7 @@
 				BA65A5601E6A911000F7A898 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA65A5611E6A911000F7A898 /* Build configuration list for PBXNativeTarget "TouchEigoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +567,7 @@
 				BA65A5631E6A911000F7A898 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA65A5641E6A911000F7A898 /* Build configuration list for PBXNativeTarget "TouchEigoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +576,7 @@
 				BA65A5661E6A911000F7A898 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
