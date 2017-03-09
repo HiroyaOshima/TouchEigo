@@ -126,7 +126,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="mark_arrow_right"/>
                                 <connections>
-                                    <segue destination="lxC-gS-Sei" kind="presentation" id="7qX-f2-VBV"/>
+                                    <segue destination="lxC-gS-Sei" kind="show" id="L8y-3M-GEi"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="vegetable" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y79-Fv-ZTM">
@@ -281,10 +281,10 @@
             </objects>
             <point key="canvasLocation" x="998" y="882"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller3-->
         <scene sceneID="erv-hE-JRf">
             <objects>
-                <viewController id="iOE-Gf-GhI" sceneMemberID="viewController">
+                <viewController id="iOE-Gf-GhI" customClass="ViewController3" customModule="TouchEigo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qQl-u1-TPY"/>
                         <viewControllerLayoutGuide type="bottom" id="SbW-tP-7bI"/>
@@ -301,11 +301,17 @@
                                 <rect key="frame" x="45" y="105" width="284" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="birthday-song-happy-party-zach-reggie-pancake-manor-fun-family-cake-celebration"/>
+                                <connections>
+                                    <action selector="monsterTap:" destination="iOE-Gf-GhI" eventType="touchUpInside" id="Kqd-Sr-EnM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IW3-Cj-DvY">
                                 <rect key="frame" x="45" y="380" width="284" height="226"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="20140317_574725"/>
+                                <connections>
+                                    <action selector="anpanTap:" destination="iOE-Gf-GhI" eventType="touchUpInside" id="hyh-uy-TrH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dP7-x9-yrM">
                                 <rect key="frame" x="118" y="20" width="152" height="48"/>
@@ -347,7 +353,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="mark_arrow_right"/>
                                 <connections>
-                                    <segue destination="EIl-7J-BHV" kind="presentation" id="3M9-qe-24T"/>
+                                    <segue destination="EIl-7J-BHV" kind="show" id="lar-aD-1q4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wnc-JP-bri">
@@ -355,7 +361,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="mark_arrow_left"/>
                                 <connections>
-                                    <segue destination="PEN-3x-mL6" kind="presentation" id="Vyo-Gf-uaO"/>
+                                    <segue destination="PEN-3x-mL6" kind="show" id="Tts-C5-f1s"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="96b-nw-6fY">
@@ -418,10 +424,10 @@
             </objects>
             <point key="canvasLocation" x="1925.5999999999999" y="138.98050974512745"/>
         </scene>
-        <!--Self View Controller-->
+        <!--View Controller2-->
         <scene sceneID="ut8-Ay-CRu">
             <objects>
-                <viewController id="EIl-7J-BHV" customClass="SelfViewController" sceneMemberID="viewController">
+                <viewController id="EIl-7J-BHV" customClass="ViewController2" customModule="TouchEigo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Vks-qm-ZQT"/>
                         <viewControllerLayoutGuide type="bottom" id="5me-Bg-fXy"/>
@@ -439,7 +445,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="mark_arrow_left"/>
                                 <connections>
-                                    <segue destination="lxC-gS-Sei" kind="presentation" id="t1N-l0-HSs"/>
+                                    <segue destination="lxC-gS-Sei" kind="show" id="Zpd-SE-irF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FOa-Bd-oNf">
@@ -512,8 +518,8 @@
         <image name="プラスのアイコン素材 (2)" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Zpd-SE-irF"/>
         <segue reference="Laq-wF-5Jy"/>
         <segue reference="4zx-kJ-pw9"/>
-        <segue reference="7qX-f2-VBV"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class SelfViewController:UIViewController{
+class ViewController2:UIViewController{
     
     //音源ファイルを指定
     let momPath = Bundle.main.bundleURL.appendingPathComponent("mom.mp3")
